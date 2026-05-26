@@ -2,7 +2,7 @@
   "brand": "Digital Griot Studio",
   "domain": "digitalgriot.studio",
   "master_handle": "@digitalgriotstudio",
-  "x_handle": "@digitalgriots",
+  "x_handle": "@griotstudio",
   "last_updated": "2026-05-26",
   "platforms": [
     {
@@ -83,14 +83,15 @@
     {
       "id": "x",
       "name": "X / Twitter",
-      "handle": "@digitalgriots",
+      "handle": "@griotstudio",
       "priority": 1,
-      "status": "blocked",
-      "setup_type": "fresh",
+      "status": "renamed",
+      "claimed_date": "2026-05-26",
+      "setup_type": "rename",
       "signup_url": "https://x.com/i/flow/signup",
-      "profile_url": "https://x.com/digitalgriots",
-      "verification": "Handle held by dormant 2011 account, 0 posts, 2 followers",
-      "notes": "Single exception to the @digitalgriotstudio rule — X caps at 15 chars. @digitalgriots fits, the s implies studio. Dormant squatter blocking direct claim — file an inactive-account report at help.x.com if pursuing. For now treat as blocked and revisit."
+      "profile_url": "https://x.com/griotstudio",
+      "verification": "Renamed existing @ADigitalGriot account to @griotstudio",
+      "notes": "X caps at 15 chars so the master @digitalgriotstudio didn't fit. @griotstudio (11 chars) maps to the second half of the domain digitalgriot.studio — handle and TLD complete each other across the brand. Renamed from @ADigitalGriot, which means X Premium subscription, follower history, account age, and verified checkmark all preserved. Display name still reads 'TheDigitalGriot' / 'Digital Griot Studio' to carry the full identity."
     },
     {
       "id": "medium",
@@ -122,12 +123,13 @@
       "name": "Dribbble",
       "handle": "@digitalgriotstudio",
       "priority": 2,
-      "status": "pending",
-      "setup_type": "fresh",
+      "status": "renamed",
+      "claimed_date": "2026-05-26",
+      "setup_type": "rename",
       "signup_url": "https://dribbble.com/signup",
       "profile_url": "https://dribbble.com/digitalgriotstudio",
-      "verification": "Verified free 2026-05-26 — 404",
-      "notes": "Free signup. Lock the handle, polish later."
+      "verification": "Renamed existing Dribbble account",
+      "notes": "Existing Dribbble account renamed to @digitalgriotstudio. Any shots and follower history preserved under the new handle."
     },
     {
       "id": "vimeo",
