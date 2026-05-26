@@ -46,14 +46,15 @@
     {
       "id": "github",
       "name": "GitHub (org)",
-      "handle": "@digitalgriotstudio",
+      "handle": "DigitalGriotStudio",
       "priority": 1,
-      "status": "pending",
+      "status": "claimed",
+      "claimed_date": "2026-05-26",
       "setup_type": "org",
       "signup_url": "https://github.com/account/organizations/new",
-      "profile_url": "https://github.com/digitalgriotstudio",
-      "verification": "Verified free 2026-05-26 — Page not found",
-      "notes": "Create a new GitHub org under your existing TheDigitalGriot user. Free tier is fine. Personal user stays as is — the 7 personal repos belong to you, not the company."
+      "profile_url": "https://github.com/DigitalGriotStudio",
+      "verification": "Org created 2026-05-26 — PascalCase slug, public visibility, free plan",
+      "notes": "Org slug DigitalGriotStudio matches the TheDigitalGriot user PascalCase family. Owned by personal account for now; transfer to business entity after corp revive/rename. Personal user TheDigitalGriot stays as is with 7 personal repos. Contact email: digitalgriotstudios@gmail.com (note plural). Next polish: profile picture, .github/profile/README.md homepage, domain verification via Cloudflare TXT record."
     },
     {
       "id": "youtube",
