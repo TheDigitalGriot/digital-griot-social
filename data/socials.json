@@ -56,14 +56,15 @@
     {
       "id": "youtube",
       "name": "YouTube",
-      "handle": "@digitalgriotstudio",
+      "handle": "@DigitalGriotStudio",
       "priority": 1,
-      "status": "pending",
-      "setup_type": "either",
+      "status": "renamed",
+      "claimed_date": "2026-05-26",
+      "setup_type": "rename",
       "signup_url": "https://www.youtube.com/account_advanced",
-      "profile_url": "https://www.youtube.com/@digitalgriotstudio",
-      "verification": "Verified free 2026-05-26 — 404 Not Found",
-      "notes": "Handle can be changed every 14 days. If you have an existing TheDigitalGriot YouTube channel, rename there. Otherwise create a new channel under the studio Gmail."
+      "profile_url": "https://www.youtube.com/@DigitalGriotStudio",
+      "verification": "Renamed existing channel — handle confirmed available (green check in Studio)",
+      "notes": "Channel renamed from previous name to 'Digital Griot Studio' with handle @DigitalGriotStudio. Underlying channel ID (UCUnzNbZLOSe3J1iQz6MlFXQ) is permanent and immutable — that's normal, not customizable on any channel. Share URL: youtube.com/@DigitalGriotStudio."
     },
     {
       "id": "linkedin",
@@ -94,12 +95,13 @@
       "name": "Medium",
       "handle": "@digitalgriotstudio",
       "priority": 2,
-      "status": "pending",
-      "setup_type": "fresh",
+      "status": "renamed",
+      "claimed_date": "2026-05-26",
+      "setup_type": "rename",
       "signup_url": "https://medium.com/m/signin",
       "profile_url": "https://medium.com/@digitalgriotstudio",
-      "verification": "Verified free 2026-05-26 — PAGE NOT FOUND 404",
-      "notes": "Use studio Gmail to sign up. Username locks at signup time."
+      "verification": "Renamed existing Medium account",
+      "notes": "Existing Medium account renamed to @digitalgriotstudio. Any existing posts and followers preserved under the new handle."
     },
     {
       "id": "behance",
