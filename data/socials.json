@@ -23,12 +23,13 @@
       "name": "TikTok",
       "handle": "@digitalgriotstudio",
       "priority": 1,
-      "status": "pending",
-      "setup_type": "either",
+      "status": "claimed",
+      "claimed_date": "2026-05-26",
+      "setup_type": "fresh",
       "signup_url": "https://www.tiktok.com/signup",
       "profile_url": "https://www.tiktok.com/@digitalgriotstudio",
-      "verification": "Verified free 2026-05-26 — Couldn't find this account",
-      "notes": "Username can be changed once every 30 days. If you have @thedigitalgriot, rename rather than start fresh."
+      "verification": "Fresh signup completed 2026-05-26",
+      "notes": "New TikTok account registered under @digitalgriotstudio. Username can be changed once every 30 days if you ever need to adjust."
     },
     {
       "id": "threads",
