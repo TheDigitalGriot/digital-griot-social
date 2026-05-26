@@ -10,12 +10,13 @@
       "name": "Instagram",
       "handle": "@digitalgriotstudio",
       "priority": 1,
-      "status": "pending",
-      "setup_type": "either",
+      "status": "renamed",
+      "claimed_date": "2026-05-26",
+      "setup_type": "rename",
       "signup_url": "https://www.instagram.com/accounts/emailsignup/",
       "profile_url": "https://www.instagram.com/digitalgriotstudio/",
-      "verification": "Verified free 2026-05-26 — Profile isn't available",
-      "notes": "Threads auto-mirrors from this. Claim or rename here first. If @thedigitalgriot exists as your IG account, rename in Settings → username to preserve followers."
+      "verification": "Renamed existing Instagram account",
+      "notes": "Existing Instagram account renamed to @digitalgriotstudio. Followers, posts, and post history preserved under the new handle. Threads now ready to activate from inside Instagram → Profile → Threads."
     },
     {
       "id": "tiktok",
@@ -38,8 +39,8 @@
       "setup_type": "either",
       "signup_url": "https://www.threads.com/login",
       "profile_url": "https://www.threads.com/@digitalgriotstudio",
-      "verification": "Auto-mirrors Instagram",
-      "notes": "Don't sign up separately — Threads inherits your Instagram handle. Activate from inside Instagram → Profile → Threads."
+      "verification": "Auto-mirrors Instagram — handle reserved",
+      "notes": "Instagram rename locked in the @digitalgriotstudio handle on Threads too. Activate from inside Instagram → Profile → Threads to flip this to renamed."
     },
     {
       "id": "github",
