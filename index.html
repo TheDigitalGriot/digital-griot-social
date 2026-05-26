@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Digital Griot Studio — social signup tracker</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">DG</div>
+        <div class="brand-text">
+          <h1 id="brand-name">Digital Griot Studio</h1>
+          <p id="brand-sub">Social signup tracker</p>
+        </div>
+      </div>
+
+      <div class="stats" id="stats" aria-live="polite">
+        <div class="stat"><span class="stat-num" id="stat-claimed">0</span><span class="stat-label">Claimed</span></div>
+        <div class="stat"><span class="stat-num" id="stat-pending">0</span><span class="stat-label">Pending</span></div>
+        <div class="stat"><span class="stat-num" id="stat-total">0</span><span class="stat-label">Total</span></div>
+      </div>
+    </div>
+
+    <div class="progress-wrap">
+      <div class="progress-track"><div class="progress-bar" id="progress-bar"></div></div>
+      <div class="progress-meta">
+        <span id="progress-pct">0%</span> complete · last updated <span id="last-updated">—</span>
+      </div>
+    </div>
+  </header>
+
+  <nav class="filters wrap" aria-label="Filter platforms">
+    <button class="filter active" data-filter="all">All</button>
+    <button class="filter" data-filter="priority-1">Priority 1</button>
+    <button class="filter" data-filter="pending">Pending</button>
+    <button class="filter" data-filter="claimed">Claimed</button>
+    <button class="filter" data-filter="renamed">Renamed</button>
+    <button class="filter" data-filter="blocked">Blocked</button>
+  </nav>
+
+  <main class="wrap">
+    <div id="grid" class="grid" role="list"></div>
+    <p id="empty" class="empty" hidden>No platforms match this filter.</p>
+  </main>
+
+  <footer class="site-footer wrap">
+    <p>Edit <code>data/socials.json</code> to update progress · <a href="https://github.com/TheDigitalGriot/digital-griot-social" target="_blank" rel="noopener">repo</a></p>
+  </footer>
+
+  <template id="card-template">
+    <article class="card" role="listitem">
+      <div class="card-head">
+        <div class="card-platform">
+          <h2 class="card-name"></h2>
+          <span class="card-handle"></span>
+        </div>
+        <span class="pill status"></span>
+      </div>
+      <div class="card-meta">
+        <span class="pill subtle setup-type"></span>
+        <span class="pill subtle priority"></span>
+      </div>
+      <p class="card-notes"></p>
+      <div class="card-actions">
+        <a class="btn primary signup-link" target="_blank" rel="noopener">Sign up</a>
+        <a class="btn ghost profile-link" target="_blank" rel="noopener">View profile →</a>
+      </div>
+    </article>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>
