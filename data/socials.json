@@ -16,7 +16,7 @@
       "signup_url": "https://www.instagram.com/accounts/emailsignup/",
       "profile_url": "https://www.instagram.com/digitalgriotstudio/",
       "verification": "Fresh signup completed 2026-05-26",
-      "notes": "New Instagram account registered under @digitalgriotstudio. Threads handle now reserved on the same Meta account — activate from inside Instagram → Profile → Threads to flip Threads to claimed."
+      "notes": "New Instagram account registered under @digitalgriotstudio."
     },
     {
       "id": "tiktok",
@@ -36,12 +36,13 @@
       "name": "Threads",
       "handle": "@digitalgriotstudio",
       "priority": 1,
-      "status": "pending",
-      "setup_type": "either",
+      "status": "claimed",
+      "claimed_date": "2026-05-26",
+      "setup_type": "fresh",
       "signup_url": "https://www.threads.com/login",
       "profile_url": "https://www.threads.com/@digitalgriotstudio",
-      "verification": "Auto-mirrors Instagram — handle reserved by new IG signup",
-      "notes": "Instagram signup locked in the @digitalgriotstudio handle on Threads too. Activate from inside Instagram → Profile → Threads to flip this to claimed."
+      "verification": "Threads profile activated via Instagram login 2026-05-26",
+      "notes": "Threads profile linked to the @digitalgriotstudio Instagram account. Location sharing disabled at OS level and in-app (no per-post location tagging). Bio location left blank."
     },
     {
       "id": "github",
@@ -53,8 +54,8 @@
       "setup_type": "org",
       "signup_url": "https://github.com/account/organizations/new",
       "profile_url": "https://github.com/DigitalGriotStudio",
-      "verification": "Org created 2026-05-26 — PascalCase slug, public visibility, free plan",
-      "notes": "Org slug DigitalGriotStudio matches the TheDigitalGriot user PascalCase family. Owned by personal account for now; transfer to business entity after corp revive/rename. Personal user TheDigitalGriot stays as is with 7 personal repos. Contact email: digitalgriotstudios@gmail.com (note plural). Next polish: profile picture, .github/profile/README.md homepage, domain verification via Cloudflare TXT record."
+      "verification": "Org created 2026-05-26 — PascalCase slug, public visibility, free plan, profile README live",
+      "notes": "Org slug DigitalGriotStudio matches the TheDigitalGriot user PascalCase family. .github/profile/README.md pushed — public face renders manifesto + social links. Owned by personal account for now; transfer to business entity after corp revive/rename decision. Personal user TheDigitalGriot stays as is with 7 personal repos. Remaining polish: profile picture upload, domain verification via Cloudflare TXT record."
     },
     {
       "id": "youtube",
